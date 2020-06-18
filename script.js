@@ -2,7 +2,7 @@ $(document).ready(function(){
     const $date = $(".date");
     const $inputForm = $(".input")
     const hours = [
-        "9am", "10am", "11am", "12pm"
+        "9am", "10am", "11am", "12pm", "1pm", "2pm", "3pm", "4pm", "5pm"
     ]
     const currentHour = moment().format("H");
 
